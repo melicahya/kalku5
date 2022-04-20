@@ -8,7 +8,7 @@
   body {
     padding: 0;
     margin: 0;
-    background: url("img/cloud.jpg");
+    background: url(cloud.jpg);
   }
   
   .calculator-grid {
@@ -19,6 +19,7 @@
     border-radius: 35px;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    margin: 10px;
   }
   
   .calculator-grid > button {
